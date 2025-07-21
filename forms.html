@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=ffiel, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center><img src="./images/heading.jpg" width="800" height="100" alt=""></center>
+    <form action="">
+        <center>
+        <fieldset>
+        <legend>Application Details</legend>
+            <table width="100%">
+                <tr>
+                    <td><label for="name">Name*</label>
+                        <input type="text" name="name" id="name" required></td>
+                    <td><label for="fathername">Father's/Guardian's Name*</label>
+                        <input type="text" name="fathername" id="fathername" required></td>
+                </tr>
+                <tr>
+                    <td><label for="DOB">Date Of Birth*</label>
+                        <input type="date" name="DOB" id="DOB" required></td>
+                    <td><input type="radio" name="Gender" id="male" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" name="Gender" id="female" value="female">
+                        <label for="female">Female</label></td>
+                </tr>
+                <tr>
+                    <td><label for="Aadhaar">Aadhaar No*</label>
+                        <input type="text" name="Aadhaar" id="Aadhaar" maxlength="12" minlength="12"></td>
+                    <td><label for="number">Whatsapp No*</label>
+                        <input type="text" name="number" id="number" maxlength="10" minlength="10"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">E-mail id*</label>
+                        <input type="email" name="email" id="email"></td>
+                    <td><label for="Photo">Photo*</label>
+                        <input type="file" name="Photo" id="Photo" required></td>
+                </tr>
+            </table>
+    </fieldset>
+    </center>
+    <center>
+        <fieldset>
+            <legend>Residential Address Details*</legend>
+            <table width="100%">
+                <tr>
+                    <td><label for="Address">Applicant's Address*</label>
+                        <textarea name="Address" id="Address" maxlength="20" required></textarea></td>
+                    <td><label for="district">District*</label><select name="district" id="district">
+                        <option value="HYDERABAD">HYDERABAD</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><Label for="mandal">Mandal*</Label>
+                        <input type="text" name="mandal" id="mandal" value="HYDERABAD"></td>
+                    <td><label for="village">Village*</label>
+                        <input type="text" name="village" id="village" value="HYDERABAD"></td>
+                </tr>
+                <tr>
+                    <td><label for="pincode">Pincode*</label>
+                        <input type="text" name="pincode" id="pincode"></td>
+                </tr>
+            </table>
+        </fieldset>
+    </center>
+        <fieldset>
+            <legend>Pass Type Details*</legend>
+            <table>
+                <tr>
+                    <td><label for="city">City*</label>
+                        <select name="city" id="city">
+                        <option value="Hyderabad">Hyderabad</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="pass_type">Pass Type*</label>
+                        <select name="pass_type" id="pass_type">
+                        <option value="">----Select----</option>
+                        <option value="monthly">Monthly Pass</option>
+                        <option value="quarterly">Quarterly Pass</option>
+                    </select></td>
+                </tr>
+            </table>
+        </fieldset>
+
+    <center>
+        <fieldset>
+            <legend>Mode of Payment & Pass Collection</legend>
+            <table width="100%">
+                <tr>
+                    <td><label for="payment_mode">Payment Mode*</label><select name="payment_mode" id="payment_mode">
+                        <option value="">Select Payment Mode</option>
+                        <option value="online">Online</option>
+                        <option value="offline">Offline</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="delivery_mode">Delivery Mode*</label>
+                        <select name="delivery_mode" id="delivery_mode">
+                        <option value="">Select Pass Delivery Mode</option>
+                        <option value="home">Home Delivery</option>
+                        <option value="center">Collection Center</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="collection_center">Collection Center*</label>
+                        <select name="collection_center" id="collection_center">
+                        <option value="">----Select----</option>
+                        <option value="center1">Center 1</option>
+                        <option value="center2">Center 2</option>
+                    </select></td>
+                </tr>
+            </table>
+        </fieldset>
+    </center>
+    <div>
+       <center> <label>Captcha</label>
+        <img src="./images/captcha.jpg"  width="200" height="50" alt="Captcha" style="vertical-align: middle;">
+        <br>
+        <input type="text" name="Captcha" required></center>
+    </div>
+    <br>
+    <center><button type="submit">Submit</button></center>
+    </form>
+</body>
+</html>
