@@ -1,0 +1,36 @@
+.container-1{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 10px;
+    margin: 75px;
+}
+.bi{
+    font-size: xx-large;
+    color: white;
+}
+.container-2{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 10px;
+    margin: 75px;
+}
+.search-container{
+    margin-left: 700px;
+}
+.container-3{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 10px;
+    margin: 75px;
+}
+.container-4{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 10px;
+    margin: 75px;
+    color: white;
+}
