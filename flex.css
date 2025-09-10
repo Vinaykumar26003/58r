@@ -1,0 +1,14 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    /* flex-shrink: 1; */
+    gap: 0;
+}
+
+.item img{
+    width: 250px;
+    height: 250px;
+}
